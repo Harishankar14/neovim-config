@@ -85,3 +85,6 @@ vim.api.nvim_create_autocmd("VimEnter", {
     require("nvim-tree.api").tree.open()
   end
 })
+-- Standard shortcuts for Select All and Search
+vim.keymap.set('n', '<C-a>', 'ggVG', { desc = 'Select all' })
+vim.keymap.set('n', '<C-f>', '/', { desc = 'Search current file' })
