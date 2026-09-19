@@ -58,6 +58,14 @@ require("lazy").setup({
       require("nvim-tree").setup {}
     end,
   },
+  --adding git tracker icon
+  {
+    "lewis6991/gitsigns.nvim",
+    tag = "v0.9.0",
+    config = function()
+      require("gitsigns").setup()
+    end
+  },
 })
 
 -- Enable the color scheme
