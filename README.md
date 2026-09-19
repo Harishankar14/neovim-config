@@ -43,3 +43,12 @@ Type `:Lazy` inside Neovim to open the plugin manager UI.
 | `U` | Update all plugins |
 | `X` | Clean up removed plugins |
 | `q` | Close the Lazy window |
+
+
+### FIXING BROKEN CACHES 
+
+`rm ~/.config/nvim/lazy-lock.json`
+
+
+`rm -rf ~/.local/share/nvim/lazy/gitsigns.nvim`
+
